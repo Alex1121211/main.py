@@ -2,7 +2,7 @@ def main():
     x, y = 300, 400
     width, height = 200, 300
     draw_house(x, y, width, height)
-
+    draw_house_roof(x, y, roof_height=0, width=0)
 
 def draw_house(x, y, width, heigth):
     """
